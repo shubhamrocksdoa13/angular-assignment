@@ -1,0 +1,13 @@
+<div class="img-stroke">
+  <img src="../../assets/paintStroke.png" alt="" width="100%">
+</div>
+<div class="question-list-heading">
+  <h3 >Question List</h3>
+</div>
+<div class="question-list">
+  <div *ngFor="let eachQuestion of allQuestions" class="fs-12 p-30-0">
+    <p>{{eachQuestion.title}}</p>
+    <p>{{eachQuestion.content}}</p>
+    <p class="answer-cta" (click)="answerClicked(eachQuestion)"><strong>Click here for Answer</strong></p>
+  </div>
+</div>

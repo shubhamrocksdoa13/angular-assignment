@@ -1,0 +1,52 @@
+.common-input-style{
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: none;
+  border: 1px solid #ccc;
+}
+
+.submit-btn{
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background: linear-gradient(90deg, #F98404, #5C33F6);
+  color: #fff;
+  cursor: pointer;
+}
+
+.dividing-line {
+  width: 4px;
+  height: 76vh;
+  background: linear-gradient(90deg, #F98404, #5C33F6);
+  border-radius: 10px;
+}
+
+.section-one{
+  width: 30%;
+}
+
+.section-two{
+  width: calc(100% - 4px);
+  padding: 20px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  max-height: calc(76vh - 40px);
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table tr td{
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+}
+
+.red-colour-block{
+  background-color: red;
+}

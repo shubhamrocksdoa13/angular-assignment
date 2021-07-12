@@ -1,0 +1,36 @@
+.img-stroke {
+  width: 230px;
+  margin: 0 auto;
+}
+
+.question-list-heading{
+  margin: 0 auto;
+  width: 183px;
+  text-align: center;
+  margin-top: -75px;
+  color: #fff;
+  transform: translateX(-13px);
+}
+
+.fs-12{
+  font-size: 12px;
+}
+
+.p-30-0{
+  padding: 30px 0px;
+}
+
+.question-list{
+  height: 64vh;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.answer-cta{
+  color: blue;
+  cursor: pointer;
+}
+
+.answer-cta:hover{
+  text-decoration: underline;
+}

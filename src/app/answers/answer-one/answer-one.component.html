@@ -1,0 +1,26 @@
+<div class="display-inline">
+  <div class="take-input section-one">
+    <h3>Please give the input</h3>
+    <label for="n">Table of Grid(n * n)</label> <br/>
+    <input type="text" id="n" class="common-input-style" [(ngModel)]="tableGrid"
+    oninput="this.value=this.value.replace(/[^0-9]/, '')"> <br/>
+
+    <label for="x">Limit to hit</label> <br/>
+    <input type="text" id="x" class="common-input-style" [(ngModel)]="inputLimit"
+    oninput="this.value=this.value.replace(/[^0-9]/, '')"
+    > <br/><br/>
+
+    <button class="submit-btn" (click)="submitInput()">Submit</button>
+  </div>
+  <div class="dividing-line"></div>
+  <div class="section-two">
+    <table>
+      <tr *ngFor="let eachBlock of allTableBlocks; let i=index;">
+        <td *ngFor="let eachBlock of allTableBlocks let j=index;"
+         (mouseenter)="mouseEnterColumn(i, j)"
+         [ngClass]="{'red-colour-block': check(i, j) }"
+        ></td>
+      </tr>
+    </table>
+  </div>
+</div>

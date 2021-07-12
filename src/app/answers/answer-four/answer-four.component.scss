@@ -1,0 +1,29 @@
+.eye {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  border: 18px solid #000;
+  border-radius: 100%;
+}
+
+.eye::after{
+  width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 146px;
+    margin-top: 92px;
+    content: "";
+    border-radius: 100%;
+}
+
+.eye::before{
+  width: 150px;
+    height: 150px;
+    background: #000;
+    border-radius: 100%;
+    content: "";
+    position: absolute;
+    margin-left: 122px;
+    margin-top: 68px;
+}

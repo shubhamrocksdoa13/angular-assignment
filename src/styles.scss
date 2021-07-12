@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+.display-inline{
+  width: 100%;
+  display: inline-flex;
+}
+
+.go-back-text{
+  position: absolute;
+  font-size: 12px;
+  top: 0px;
+  font-weight: 900;
+  cursor: pointer;
+  color: blue;
+}
+
+.go-back-text:hover{
+  text-decoration: underline;
+}
